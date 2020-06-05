@@ -1,5 +1,7 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  #main
+  video#video(playsinline='' autoplay='' style='border : 1px solid black')
+  script(src='/javascripts/function.js')
+
